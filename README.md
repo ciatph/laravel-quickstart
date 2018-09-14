@@ -2,6 +2,8 @@
 
 A completed experimental demo app for testing laravel from [https://laravel.com/docs/5.2/quickstart](https://laravel.com/docs/5.2/quickstart). This is a simple TO-DO list of tasks project.
 
+Builds a simple *create + delete + list items/tasks list*. Discusses environment set-up, database migrations, models, views (templates), routing and error display.
+
 ## Tools and Plugins
 
 1. Composer
