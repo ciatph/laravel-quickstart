@@ -21,8 +21,22 @@ Route::get('/', function() {
 });
 
 // Add a new task
-Route::post('/task', function() {
+Route::post('/task', function(Request $request) {
+    $validator = Validator::make($request->all(), [
+        'name' => 'required|max:255'
+    ]);
 
+    if($validator->fails()) {
+        return redirect('/')
+            ->withInput()
+            ->withErrors($validator);
+    }
+
+    $task = new \App\Task;
+    $task->name = $request->name;
+    $task->save();
+
+    return redirect('/');
 });
 
 // Delete a task
