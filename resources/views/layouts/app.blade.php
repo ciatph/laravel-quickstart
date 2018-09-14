@@ -2,6 +2,11 @@
 <html>
 <head>
 <title>Quickstart</title>
+<style type="text/css">
+    html, body {
+        background-color: palegreen;
+    }
+</style>
 </head>
 <body>
 
