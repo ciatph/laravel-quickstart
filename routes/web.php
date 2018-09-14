@@ -17,7 +17,10 @@ use Illuminate\Http\Request;
 
 // Show task dashboard
 Route::get('/', function() {
-    return view('tasks');
+    $tasks = Task::orderBy('created_at', 'asc')->get();
+    return view('tasks', [
+        'tasks' => $tasks
+    ]);
 });
 
 // Add a new task
