@@ -17,7 +17,7 @@ Builds a simple *create + delete + list items/tasks list*. Discusses environment
 1. Clone this repository into your local directory.
 2. Navigate to the cloned directory from the command line. Run `Composer install`.
 3. Open `.env`. See `DB_DATABASE`. Create a `quickstart-demo` database in MySQL.
-4. Run `php artisan make:migration`
+4. Run `php artisan migrate`
 5. Run this project: `php serve artisan`. Open the resulting URL to a web browser.
 
 
