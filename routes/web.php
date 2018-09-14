@@ -42,6 +42,11 @@ Route::post('/task', function(Request $request) {
     return redirect('/');
 });
 
+// Added redirect when /task is GET
+Route::get('/task', function(){
+    return redirect('/');
+});
+
 // Delete a task
 Route::delete('/task/{task}', function(Task $task) {
     $task->delete();
