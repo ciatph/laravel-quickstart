@@ -10,8 +10,16 @@ An experimental demo app for testing laravel from [https://laravel.com/docs/5.2/
 3. [Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade) as plugin for VS Code
 
 
+## Usage
 
-# Methods
+1. Clone this repository into your local directory.
+2. Navigate to the cloned directory from the command line. Run `Composer install`.
+3. Open `.env`. See `DB_DATABASE`. Create a `quickstart-demo` database in MySQL.
+4. Run `php artisan make:migration`
+5. Run this project: `php serve artisan`. Open the resulting URL to a webrowser.
+
+
+# Methods for Creating A New Project
 
 ## A. Prepare your Development Environment
 
