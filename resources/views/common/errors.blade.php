@@ -7,7 +7,7 @@
         <br><br>
 
         <ul>
-            @foreach ($errors->val() as $error)
+            @foreach ($errors->all() as $error)
                 <li>{{ $error }}</li>
             @endforeach
         </ul>
