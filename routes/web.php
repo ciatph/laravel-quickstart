@@ -11,6 +11,25 @@
 |
 */
 
+use App\Task;
+use Illuminate\Http\Request;
+
+
 Route::get('/', function () {
     return view('welcome');
+});
+
+// Show task dashboard
+Route::get('/', function() {
+
+});
+
+// Add a new task
+Route::post('/task', function() {
+
+});
+
+// Delete a task
+Route::delete('/task/{task}', function(Task $task) {
+
 });
