@@ -1,6 +1,6 @@
 # laravel-quickstart
 
-An experimental demo app for testing laravel from [https://laravel.com/docs/5.2/quickstart](https://laravel.com/docs/5.2/quickstart). This is a simple TO-DO list of tasks project.
+A completed experimental demo app for testing laravel from [https://laravel.com/docs/5.2/quickstart](https://laravel.com/docs/5.2/quickstart). This is a simple TO-DO list of tasks project.
 
 ## Tools and Plugins
 
@@ -16,10 +16,10 @@ An experimental demo app for testing laravel from [https://laravel.com/docs/5.2/
 2. Navigate to the cloned directory from the command line. Run `Composer install`.
 3. Open `.env`. See `DB_DATABASE`. Create a `quickstart-demo` database in MySQL.
 4. Run `php artisan make:migration`
-5. Run this project: `php serve artisan`. Open the resulting URL to a webrowser.
+5. Run this project: `php serve artisan`. Open the resulting URL to a web browser.
 
 
-# Methods for Creating A New Project
+# Methods 
 
 ## A. Prepare your Development Environment
 
